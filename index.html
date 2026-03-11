@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. fahim Azad - Portfolio</title>
+    <meta name="description" content="Portfolio of Md. fahim Azad, Software Developer.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor & Sparkles -->
+    <div class="cursor-dot"></div>
+    <div id="sparkle-container"></div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">MD. FAHIM AZAD</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">HOME</a></li>
+                    <li><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT ME</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary btn-nav">GET IN TOUCH</a>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <!-- Grid Background Overlay -->
+            <div class="grid-bg"></div>
+            <!-- Decorative Yellow Shapes -->
+            <div class="bg-shape bg-shape-left"></div>
+
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Hello, I'm Md.<br>
+                        Fahim Azad.<br>
+                        <!-- <span class="highlight">Software<br>Developer.</span> -->
+                    </h1>
+                    <h1>Software Developer</h1>
+                    <p class="hero-desc">
+                        Crafting impactful digital experiences through code, design, and logic. Let's build something
+                        exceptional.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-dark">VIEW MY WORK</a>
+                        <a href="#skills" class="btn btn-outline">EXPLORE SKILLS</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-container">
+                        <div class="hero-image-inner">
+                            <img src="images/azad1.jpg" alt="Md. Fahim Azad" class="hero-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section bg-white">
+            <div class="container">
+                <div class="section-header center">
+                    <h2 class="section-title">ABOUT ME</h2>
+                </div>
+                <div class="about-container">
+                    <div class="about-image">
+                        <img src="images/azad1.jpg" alt="Md. Fahim Azad" class="about-img">
+                    </div>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>I am a passionate Software Developer with a strong focus on building scalable, efficient,
+                                and
+                                user-centric applications. With a solid foundation in modern web technologies, I love
+                                transforming complex problems into elegant solutions.</p>
+                            <p>When I'm not coding, I am exploring new tech trends, contributing to open-source, or
+                                sharpening my logical and analytical skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="grid-bg"></div>
+            <div class="container">
+                <div class="section-header center">
+                    <h2 class="section-title">SKILLS & EXPERTISE</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h3 class="skill-title">WEB DEV</h3>
+                        <p class="skill-desc">Building responsive, fast, and accessible web applications.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h3 class="skill-title">PYTHON</h3>
+                        <p class="skill-desc">Creating robust backends, automation scripts, and logical systems.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3 class="skill-title">DATABASE</h3>
+                        <p class="skill-desc">Designing scalable databases and optimized query structures.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3 class="skill-title">LOGIC & DSA</h3>
+                        <p class="skill-desc">Strong problem-solving skills and algorithmic thinking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section bg-white">
+            <div class="container">
+                <div class="section-header center">
+                    <h2 class="section-title">FEATURED PROJECTS</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/project_ecommerce.png" alt="Project 1: E-commerce" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">NexMart E-commerce Platform</h3>
+                            <p class="project-desc">A full-stack e-commerce solution with dynamic cart, user
+                                authentication, and payment integration.</p>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Tech Stack:</span>
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/project_dashboard.png" alt="Project 2: Data Analytics Dashboard"
+                                class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">DataVision Analytics Dashboard</h3>
+                            <p class="project-desc">Interactive dashboard for visualizing complex datasets with
+                                real-time dynamic filtering.</p>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Tech Stack:</span>
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Django</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/project_portfolio.png" alt="Project 3: Portfolio Website"
+                                class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Creative Developer Portfolio</h3>
+                            <p class="project-desc">A modern, responsive personal portfolio to showcase skills and
+                                creative projects.</p>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Tech Stack:</span>
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">JS</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/project_inventory.png" alt="Project 4: Inventory Management"
+                                class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">StockFlow Inventory System</h3>
+                            <p class="project-desc">A comprehensive system to track inventory levels, orders, sales and
+                                deliveries.</p>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Tech Stack:</span>
+                                    <span class="tech-tag">Java</span>
+                                    <span class="tech-tag">Spring Boot</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/project_tasks.png" alt="Project 5: Task Tracker" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">TaskMaster Agile Tracker</h3>
+                            <p class="project-desc">A personal productivity app to manage daily tasks with a
+                                drag-and-drop kanban board.</p>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Tech Stack:</span>
+                                    <span class="tech-tag">Vue.js</span>
+                                    <span class="tech-tag">Firebase</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/project_social.png" alt="Project 6: Social Media API" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">ConnectX Social Media API</h3>
+                            <p class="project-desc">A scalable backend RESTful API supporting a social media platform's
+                                core functions.</p>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Tech Stack:</span>
+                                    <span class="tech-tag">Golang</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Companies Section -->
+        <section id="companies" class="companies section bg-light">
+            <div class="container">
+                <div class="section-header center">
+                    <h2 class="section-title">COMPANIES I'VE WORKED WITH</h2>
+                </div>
+                <div class="companies-grid">
+                    <div class="company-logo">
+                        <i class="fab fa-amazon"></i>
+                        <span>Amazon</span>
+                    </div>
+                    <div class="company-logo">
+                        <i class="fab fa-google"></i>
+                        <span>Google</span>
+                    </div>
+                    <div class="company-logo">
+                        <i class="fab fa-microsoft"></i>
+                        <span>Microsoft</span>
+                    </div>
+                    <div class="company-logo">
+                        <i class="fab fa-meta"></i>
+                        <span>Meta</span>
+                    </div>
+                    <div class="company-logo">
+                        <i class="fab fa-spotify"></i>
+                        <span>Spotify</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="grid-bg"></div>
+            <div class="container">
+                <div class="section-header center">
+                    <h2 class="section-title">GET IN TOUCH</h2>
+                    <p class="section-subtitle">Have a project in mind or just want to say hi? I'd love to hear from
+                        you!</p>
+                </div>
+                <div class="contact-wrapper">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-links">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#contact">CONTACT ME</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/md-fahim-azad/" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/fahim-azad" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://x.com/" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:azadf1466@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="footer-copy">&copy; <span class="highlight-text">Md. fahim Azad</span> All Rights Received 2026
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
